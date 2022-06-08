@@ -12,4 +12,4 @@ You will need to have Python installed.
 Using pip (or any other installer), you will need to install TSC package:
 pip install tableauserverclient
 
-Then you can import and use it. 
+Then you can import and use the library. 
