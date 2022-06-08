@@ -1,0 +1,14 @@
+//token:
+<your token goes here>
+
+//site_id
+<site id goes here>
+
+//server_url
+<server url goes here>
+
+//workbook_id
+<workbook's id goes here>
+
+//api_token
+<what you called your token goes here>
