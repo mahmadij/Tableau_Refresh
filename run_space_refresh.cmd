@@ -1,1 +1,1 @@
-cd C:\tivoli & start refresh_tivoli.exe
+start refresh_tivoli.exe

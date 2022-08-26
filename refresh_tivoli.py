@@ -6,9 +6,8 @@ token=lines[1].strip()
 site_id=lines[4].strip()
 server_url=lines[7].strip()
 workbook_id=lines[10].strip()
-token_name=lines[13].strip()
 f.close()
-tableau_auth = TSC.PersonalAccessTokenAuth(token_name, token, '')
+tableau_auth = TSC.PersonalAccessTokenAuth('api_token', token, '')
 server = TSC.Server(server_url, use_server_version=True)
 
 with server.auth.sign_in(tableau_auth):
@@ -18,4 +17,4 @@ with server.auth.sign_in(tableau_auth):
 
     # call the update method
     workbook = server.workbooks.refresh(workbook)
-    print("\nThe data of workbook {0} is refreshed.".format(workbook.name))
+    print("\nThe data of workbook is refreshed.")
